@@ -64,7 +64,7 @@ namespace SK_DEV
                 var totalTokenCount = 0L;
 
                 var response = chatCompletionService.GetStreamingChatMessageContentsAsync(
-                    chatHistory: new ChatHistory(prompt),
+                    chatHistory: chatHistory,
                     executionSettings: settings);
 
                 await foreach (var chunk in response)
