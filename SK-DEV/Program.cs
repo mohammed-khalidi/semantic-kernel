@@ -158,6 +158,9 @@ In addition, attempt to determine if the image was taken with a malfunctioning c
             //        chatHistory: new ChatHistory(prompt),
             //        executionSettings: settings);
 
+            //    var response = chatCompletionService.GetStreamingChatMessageContentsAsync(
+            //    chatHistory: chatHistory,
+            //    executionSettings: settings);
             //    await foreach (var chunk in response)
             //    {
             //        Console.Write(chunk.Content);
