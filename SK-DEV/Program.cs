@@ -15,14 +15,14 @@ namespace SK_DEV
 {
     internal class Program
     {
-        private const string OPENAI_API_KEY = "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";
+        private const string OPENAI_API_KEY = "";
 
         private const string GITHUB_ENDPOINT = "https://models.github.ai/inference";
-        private const string GITHUB_API_KEY = "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";
+        private const string GITHUB_API_KEY = "";
         private const string GITHUB_MODEL_ID = "openai/gpt-4.1-nano";
 
         private const string HUGGING_FACE_ENDPOINT = "https://router.huggingface.co";
-        private const string HUGGING_FACE_API_KEY = "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";
+        private const string HUGGING_FACE_API_KEY = "";
         private const string HUGGING_FACE_MODEL_ID = "deepseek-ai/DeepSeek-R1:sambanova";
 
         private const string ONNX_PATH = "D:\\projects\\source_code\\research\\ai-models\\Phi-4-multimodal-instruct-onnx\\gpu\\gpu-int4-rtn-block-32";
